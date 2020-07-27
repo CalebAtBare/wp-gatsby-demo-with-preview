@@ -8,7 +8,7 @@ import { useTheme } from "@chakra-ui/core"
 export default (props) => {
   const { children, ...rest } = props
   const theme = useTheme()
-  console.log({ theme })
+  // console.log({ theme })
   return (
     <Container {...rest} theme={theme}>
       {children && Parser(children)}
@@ -17,6 +17,7 @@ export default (props) => {
 }
 
 const Container = styled.div`
+  font-size: 16px;
   ${({ theme }) =>
     theme &&
     css`
