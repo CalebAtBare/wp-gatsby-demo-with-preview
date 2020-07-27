@@ -21,7 +21,7 @@ export default (props) => {
 
   const [executeQuery, { error, data, called, loading }] = useQuery({
     // url: `${wpUrl}/graphql`,
-    url: `https://wpgatsbydemo.local/graphql`,
+    url: `https://wpgatsbydemo1.wpengine.com/graphql`,
     variables: { id: postId },
     query,
     headers: { Authorization: `Bearer ${jwtAuthKey}` },
