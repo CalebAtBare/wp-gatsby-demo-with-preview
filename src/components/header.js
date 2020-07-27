@@ -16,7 +16,7 @@ export default () => (
             display: `inline-block`,
           }}
         >
-          WP Gatsby Demo
+          WP Gatsby Demo 🚀
         </span>
       </Grid>
     </Link>
