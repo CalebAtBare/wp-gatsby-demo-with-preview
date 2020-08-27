@@ -27,7 +27,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress-experimental`,
       options: {
         url:
-          process.env.WPGRAPHQL_URL ||
+          process.env.GATSBY_WPGRAPHQL_URL ||
           `https://wpgatsbydemo1.wpengine.com/graphql`,
         verbose: true,
         develop: {
