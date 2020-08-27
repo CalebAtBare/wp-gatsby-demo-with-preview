@@ -14,8 +14,7 @@ export default (props) => {
           <Img fluid={image?.remoteFile?.childImageSharp?.fluid} />
         </div>
       ) : (
-        image?.sourceUrl &&
-        image?.srcSet && (
+        image?.sourceUrl && (
           <div className="image-container">
             <img src={image.sourceUrl} srcSet={image.srcSet} />
           </div>
