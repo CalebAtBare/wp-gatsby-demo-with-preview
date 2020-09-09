@@ -11,11 +11,13 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-plugin-wordpress-preview`,
-      // options: {
-      //   templatesPath: `./src/templates/**/*.js`,
-      //   contentTypeTemplateDirectory: `./src/templates/single`,
-      //   // archiveTemplateDirectory: `./src/templates/archive`,
-      // },
+      options: {
+        debug: true, // shows extra console logs
+        // excludedTemplates: ["post"], // exclude templates by graphqlSingleName
+        // templatesPath: `./src/templates/**/*.js`,
+        // contentTypeTemplateDirectory: `./src/templates/single`,
+        // archiveTemplateDirectory: `./src/templates/archive`,
+      },
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,

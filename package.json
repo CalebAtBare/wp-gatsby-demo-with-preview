@@ -42,7 +42,7 @@
     "react-spinners": "^0.9.0",
     "styled-components": "^5.1.1",
     "yarn": "^1.22.4",
-    "gatsby-plugin-wordpress-preview": "0.0.3"
+    "gatsby-plugin-wordpress-preview": "0.0.6"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
