@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import PageModules from "../../components/PageModules"
 import Layout from "../../components/layout"
 
-import { Heading, Text } from "@chakra-ui/core"
+// import { Heading, Text } from "@chakra-ui/core"
 
 export default ({ data }) => {
   return (

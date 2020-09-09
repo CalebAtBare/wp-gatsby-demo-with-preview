@@ -10,11 +10,14 @@ require("dotenv").config({
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-styled-components`,
+      resolve: `gatsby-plugin-wordpress-preview`,
       // options: {
-      //   // Add any options here
+      //   templatesPath: `./src/templates/**/*.js`,
+      //   contentTypeTemplateDirectory: `./src/templates/single`,
+      //   // archiveTemplateDirectory: `./src/templates/archive`,
       // },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
