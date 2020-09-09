@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-plugin-wordpress-preview`,
       options: {
         debug: true, // shows extra console logs
-        // excludedTemplates: ["post"], // exclude templates by graphqlSingleName
+        excludedTemplates: ["post"], // exclude templates by graphqlSingleName
         // templatesPath: `./src/templates/**/*.js`,
         // contentTypeTemplateDirectory: `./src/templates/single`,
         // archiveTemplateDirectory: `./src/templates/archive`,
